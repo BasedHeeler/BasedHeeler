@@ -1,0 +1,147 @@
+html {
+  scroll-behavior: smooth; }
+@font-face {
+    font-family: BasedHeeler;
+    src: url("font/font.ttf");
+}
+
+.based-heeler-font {
+    font-family: BasedHeeler;
+    font-weight: normal !important;
+}
+
+h2.based-heeler-font {
+    font-size: 4rem !important;
+}
+
+#intro {
+  background: #7fadca url("img/blue-heeler.png") no-repeat center right;
+  background-size: 640px 640px; }
+
+.top-nav-collapse {
+  background-color: #3949ab !important; }
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important; }
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3949ab !important; } }
+
+#intro .h6 {
+  font-weight: 300;
+  line-height: 1.7; }
+
+.site-bg-img {
+  height: 100vh;
+  min-height: 480px;
+  max-height: 1080px; }
+
+/*.hm-gradient .site-bg-img {*/
+/*  background: rgba(42, 27, 161, 0.7);*/
+/*  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%); }*/
+
+@media (max-width: 450px) {
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem; } }
+
+#buy-token .lead {
+  opacity: 0.7; }
+
+@media (min-width: 768px) {
+    #buy-token .card-image {
+        background: url("img/glasses.png") no-repeat bottom center;
+        background-size: 360px 288px;
+    }
+}
+
+.heeler-blue-1 {
+    background-color: #7fadca !important
+}
+
+.heeler-orange-1 {
+    background-color: #dea87e !important
+}
+
+.heeler-dark-1 {
+    background-color: #132533 !important
+}
+
+.card-image {
+    min-height: 750px;
+}
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+.h1-responsive {
+    font-size: 500%
+}
+
+@media (min-width: 992px) {
+    .h1-responsive {
+        font-size: 800%
+    }
+}
+
+@media (min-width: 1200px) {
+    .h1-responsive {
+        font-size: 1050%;
+    }
+}
+
+@media (max-width: 991px) {
+    #intro .container {
+        background-color: rgba(127, 173, 202, 0.75);
+    }
+}
+
+.base-icon {
+    width: 35%;
+}
+
+.base-footer {
+    width: 100px;
+    margin: auto;
+}
+
+.affiliate-link {
+    line-height: 2.5rem;
+}
+
+.white {
+    background-color: #fcfcfc !important
+}
+
+@media (max-width: 991px) {
+    .affiliate-link {
+        font-size: 0.75rem;
+        line-height: 1.75rem;
+        span {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .affiliate-link {
+        font-size: 0.6rem;
+        line-height: 1.75rem;
+        span {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+.navbar-brand {
+    font-family: BasedHeeler;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .header-social {
+        display: none;
+    }
+}
