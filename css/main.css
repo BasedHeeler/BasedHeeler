@@ -107,32 +107,8 @@ h2.based-heeler-font {
     margin: auto;
 }
 
-.affiliate-link {
-    line-height: 2.5rem;
-}
-
 .white {
     background-color: #fcfcfc !important
-}
-
-@media (max-width: 991px) {
-    .affiliate-link {
-        font-size: 0.75rem;
-        line-height: 1.75rem;
-        span {
-            font-size: 1.25rem;
-        }
-    }
-}
-
-@media (max-width: 767px) {
-    .affiliate-link {
-        font-size: 0.6rem;
-        line-height: 1.75rem;
-        span {
-            font-size: 1.25rem;
-        }
-    }
 }
 
 .navbar-brand {
