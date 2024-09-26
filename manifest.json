@@ -3,17 +3,12 @@
   "name": "Based Heeler",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "img/logo-2.svg",
+      "src": "basedheeler.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "img/logo-2.svg",
+      "src": "basedheeler.png",
       "type": "image/png",
       "sizes": "512x512"
     }
