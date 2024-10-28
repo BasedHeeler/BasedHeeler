@@ -24,10 +24,6 @@ h2.based-heeler-font {
 .navbar:not(.top-nav-collapse) {
   background: transparent !important; }
 
-@media (max-width: 768px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #3949ab !important; } }
-
 #intro .h6 {
   font-weight: 300;
   line-height: 1.7; }
@@ -41,20 +37,8 @@ h2.based-heeler-font {
 /*  background: rgba(42, 27, 161, 0.7);*/
 /*  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%); }*/
 
-@media (max-width: 450px) {
-  .margins {
-    margin-right: 1rem;
-    margin-left: 1rem; } }
-
 #buy-token .lead {
   opacity: 0.7; }
-
-@media (min-width: 768px) {
-    #buy-token .card-image {
-        background: url("img/glasses.png") no-repeat bottom center;
-        background-size: 360px 288px;
-    }
-}
 
 .heeler-blue-1 {
     background-color: #7fadca !important
@@ -80,24 +64,6 @@ h2.based-heeler-font {
     font-size: 500%
 }
 
-@media (min-width: 992px) {
-    .h1-responsive {
-        font-size: 800%
-    }
-}
-
-@media (min-width: 1200px) {
-    .h1-responsive {
-        font-size: 1050%;
-    }
-}
-
-@media (max-width: 991px) {
-    #intro .container {
-        background-color: rgba(127, 173, 202, 0.75);
-    }
-}
-
 .base-icon {
     width: 35%;
 }
@@ -116,8 +82,52 @@ h2.based-heeler-font {
     font-size: 2.5rem;
 }
 
+@media (max-width: 450px) {
+    .margins {
+        margin-right: 1rem;
+        margin-left: 1rem; }
+}
+
 @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #3949ab !important;
+    }
     .header-social {
         display: none;
+    }
+    .footer-icon {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .footer-icon img {
+        height: 20px !important;
+    }
+    .eth-address {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #buy-token .card-image {
+        background: url("img/glasses.png") no-repeat bottom center;
+        background-size: 360px 288px;
+    }
+}
+
+@media (max-width: 991px) {
+    #intro .container {
+        background-color: rgba(127, 173, 202, 0.75);
+    }
+}
+
+@media (min-width: 992px) {
+    .h1-responsive {
+        font-size: 800%
+    }
+}
+
+@media (min-width: 1200px) {
+    .h1-responsive {
+        font-size: 1050%;
     }
 }
