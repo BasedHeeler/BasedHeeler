@@ -15,8 +15,8 @@ h2.based-heeler-font {
 }
 
 #intro {
-  background: #7fadca url("img/blue-heeler.png") no-repeat center right;
-  background-size: 640px 640px; }
+  background: #7fadca url("img/blue-heeler.png") no-repeat bottom 20% right 10%;
+  background-size: 512px 512px; }
 
 .top-nav-collapse {
   background-color: #3949ab !important; }
@@ -29,16 +29,21 @@ h2.based-heeler-font {
   line-height: 1.7; }
 
 .site-bg-img {
-  height: 100vh;
-  min-height: 480px;
+  min-height: 640px;
   max-height: 1080px; }
+
+.btn-header {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+label.active {
+    display: none;
+}
 
 /*.hm-gradient .site-bg-img {*/
 /*  background: rgba(42, 27, 161, 0.7);*/
 /*  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%); }*/
-
-#buy-token .lead {
-  opacity: 0.7; }
 
 .heeler-blue-1 {
     background-color: #7fadca !important
